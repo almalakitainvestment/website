@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>الملكية للإستثمار | عقارات صلالة - وساطة وتطوير</title>
-    <meta name="description" content="شركة الملكية للإستثمار في صلالة. خبراء الوساطة، التطوير، التثمين، وإدارة العقارات.">
+    <meta name="description" content="الملكية للإستثمار في صلالة. خبراء الوساطة، التطوير، التثمين، وإدارة العقارات.">
     <meta name="keywords" content="الملكية للإستثمار, عقارات صلالة, تثمين عقاري, أراضي عمان">
     
     <link rel="icon" href="icon.png" type="image/png">
@@ -31,12 +31,11 @@
                 <li><a href="#services">خدماتنا</a></li>
                 <li><a href="#trust">لماذا نحن</a></li>
                 <li><a href="#contact">اتصل بنا</a></li>
+          
             </ul>
         </nav>
 
-        <a href="#contact" class="cta-btn">
-            <i class="fa-solid fa-link"></i> تواصل معنا
-        </a>
+     
     </header>
 
     <section id="home" class="hero">
@@ -44,6 +43,10 @@
         <p class="reveal">خبراء الوساطة والتطوير والتثمين وإدارة العقارات</p>
         <a href="#services" class="cta-btn reveal" style="animation-delay: 0.2s;">
             اكتشف خدماتنا <i class="fa-solid fa-arrow-down"></i>
+        </a>
+        <br>
+                 <a href="#contact" class="cta-btn reveal" style="animation-delay: 0.5s;">
+            <i class="fa-solid fa-link"></i> تواصل معنا
         </a>
     </section>
 
@@ -137,7 +140,7 @@
 
     <script>
         window.addEventListener('scroll', reveal);
-
+ reveals[i].classList.add('active');
         function reveal(){
             var reveals = document.querySelectorAll('.reveal');
 
